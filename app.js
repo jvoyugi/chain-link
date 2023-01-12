@@ -43,6 +43,10 @@ const app = express(); //createApplication
 const indexRoute = require("./routes/index");
 app.set('view engine', 'ejs');
 
+// Static files
+app.use('/public/',express.static(__dirname + '/public'));
+
+// Root url
 app.use('/', indexRoute)
 
 let PORT = null;

@@ -1,0 +1,21 @@
+body {
+  font-family: "Jost";
+  font-size: 14px;
+  font-weight: lighter;
+}
+
+#contact-link {
+  color: #2cb34a;
+  text-transform: uppercase;
+}
+
+.login-btn {
+  font-size: 12px;
+  background-color: #2cb34a;
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 100px
+}
