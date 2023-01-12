@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- CSS only -->
+    <!-- for javascript use <% %>  if a variable <%= username      -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/custom.css" />
+  </head>
+
+  <body>
+    <!-- welcome section -->
+    <section id="welcome" class="p-1 text-center text-sm-start">
+      <div
+        class="container align-items-center text-center justify-content-between"
+      >
+        <img src="assets/logo/logo.png" alt="photo" />
+        <h1 class="display-2">WELCOME <%= username %> </h1>
+        <h1 class="display-2">TO CHAINLINK</h1>
+        <p>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
+        <img id="img1" src="public/mouse_click.png" alt="photo" />
+      </div>
+    </section>
+
+    <!-- services section -->
+    <section id="services" class="p-1 text-center text-sm-start">
+      <div
+        class="container align-items-center text-center justify-content-between"
+      >
+        <h1 class="display-5">SERVICES</h1>
+        <p>
+          Before we sign a contract or write a line of code our team will spend
+          the necessary time needed to understand your product vision
+        </p>
+        <p>
+          The outcome of this scoping session is proposal or high-level
+          statement of work
+        </p>
+        <p>
+          based on your requirements , we can provide a complete offering or
+          just the pieces you need.
+        </p>
+      </div>
+    </section>
+
+    <!-- what we do section-->
+    <section id="todo" class="p-1 text-center text-sm-start">
+      <div
+        class="container align-items-center text-center justify-content-between"
+      >
+        <h1 class="display-5">WHAT WE DO</h1>
+
+        <div
+          id="content-box"
+          class="row d-sm-flex align-items-center justify-content-between"
+        >
+          <div
+            class="col whatwedo1 my-5 p-1 text-center align-items-center justify-content-between"
+          >
+            <img
+              class="design mx-auto d-block img-fluid w-10 rounded"
+              id="design"
+              src="assets/services_icons/design_icon.png"
+              alt="photo"
+            />
+            <p class="design">DESIGN</p>
+            <h5 id="designHeader" class="designHeader display-none"></h5>
+            <p id="designBody" class="designHeader display-none"></p>
+          </div>
+
+          <div
+            class="col whatwedo1 my-5 p-1 text-center align-items-center justify-content-between"
+          >
+            <img
+              class="development mx-auto d-block img-fluid w-10 d-sm-block rounded"
+              src="assets/services_icons/dev_icon.png"
+              alt="photo"
+            />
+            <p class="development text-center">DEVELOPMENT</p>
+            <h5
+              id="developmentHeader"
+              class="developmentHeader display-none"
+            ></h5>
+            <p id="developmentBody" class="developmentHeader display-none"></p>
+          </div>
+
+          <div
+            class="col whatwedo1 my-5 p-1 text-center align-items-center justify-content-between"
+          >
+            <img
+              class="productManagement mx-auto d-block img-fluid w-10 d-sm-block rounded"
+              src="assets/services_icons/product_icon.png"
+              alt="photo"
+            />
+            <p class="productManagement">PRODUCT MANAGEMENT</p>
+            <h5 id="productHeader" class="productHeader display-none"></h5>
+            <p id="productBody" class="productHeader display-none"></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- portfolio section-->
+    <section id="portfolio" class="p-1 text-center text-sm-start">
+      <div
+        class="container align-items-center text-center justify-content-between"
+      >
+        <h1 class="display-5">PORTFOLIO</h1>
+
+        <div
+          id="row1"
+          class="row d-sm-flex align-items-center justify-content-between"
+        >
+          <div class="col parent" id="parent1">
+            <img
+              id="project1img"
+              class="img-fluid d-sm-block rounded"
+              src="assets/portfolio/work4.jpg"
+              alt="photo"
+            />
+            <p id="project1"></p>
+          </div>
+
+          <div class="col parent" id="parent2">
+            <img
+              id="project2img"
+              class="img-fluid d-sm-block rounded"
+              src="assets/portfolio/work3.jpg"
+              alt="photo"
+            />
+            <p id="project2"></p>
+          </div>
+
+          <div class="col parent" id="parent3">
+            <img
+              id="project3img"
+              class="img-fluid d-sm-block rounded"
+              src="assets/portfolio/work2.jpg"
+              alt="photo"
+            />
+            <p id="project3"></p>
+          </div>
+
+          <div class="col parent" id="parent4">
+            <img
+              id="project4img"
+              class="img-fluid d-sm-block rounded"
+              src="assets/portfolio/work1.jpg"
+              alt="photo"
+            />
+            <p id="project4"></p>
+          </div>
+        </div>
+        <br />
+        <div
+          id="row2"
+          class="row d-sm-flex align-items-center justify-content-between"
+        >
+          <div class="col parent" id="parent5">
+            <img
+              id="project5img"
+              class="img-fluid d-sm-block rounded"
+              src="assets/portfolio/work5.jpg"
+              alt="photo"
+            />
+            <p id="project5"></p>
+          </div>
+
+          <div class="col parent" id="parent6">
+            <img
+              id="project6img"
+              class="img-fluid d-sm-block rounded"
+              src="assets/portfolio/work6.jpg"
+              alt="photo"
+            />
+            <p id="project6"></p>
+          </div>
+
+          <div class="col parent" id="parent7">
+            <img
+              id="project7img"
+              class="img-fluid d-sm-block rounded"
+              src="assets/portfolio/work7.jpg"
+              alt="photo"
+            />
+
+            <p id="project7"></p>
+          </div>
+
+          <div class="col parent" id="parent8">
+            <img
+              id="project8img"
+              class="img-fluid d-sm-block rounded"
+              src="assets/portfolio/work8.jpg"
+              alt="photo"
+            />
+            <p id="project8"></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <br />
+    
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.min.js"
+      integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/custom.js"></script>
+    <script src="js/main.js"></script>
+    
+  </body>
+</html>
