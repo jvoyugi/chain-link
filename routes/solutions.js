@@ -1,7 +1,7 @@
 const express= require('express');
 const multer= require('multer');
 const router=express.Router();
-const Customer=require("../models/customer");
+const Customer=require("../models/solutions");
 
 router.post("/login",(req, res)=>{
     res.send("This is the ");
